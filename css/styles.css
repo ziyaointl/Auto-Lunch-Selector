@@ -1,0 +1,45 @@
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+* {
+  font: Arial, Helvetica, sans-serif;
+}
+#lunch {
+  font-weight: lighter;
+}
+button {
+  float: right;
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  color: #000000;
+}
+button:hover {
+  background-color: #000000;
+  color: white;
+  font-weight: lighter;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+.box {
+  margin: auto;
+  width: 60%;
+}
+@media (max-width: 700px) {
+  .box {
+    width: 90%;
+  }
+}

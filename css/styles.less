@@ -1,0 +1,46 @@
+@import "mixins.less";
+
+* {
+	font: Arial, Helvetica, sans-serif
+}
+
+#lunch {
+	font-weight: lighter;
+}
+
+button {
+	float: right;
+	font-size: 16px;
+	margin: 5px;
+	padding: 10px;
+	background-color: white;
+	border-style: solid;
+	border-color: hsl(0, 0, 0%);
+	border-width: 2px;
+	.transition(0.5s);
+	color: hsl(0, 0, 0%);
+}
+
+button:hover {
+	background-color: hsl(0, 0, 0%);
+	color: white;
+	font-weight: lighter;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+}
+
+.box {
+	margin: auto;
+	width: 60%;
+}
+
+@media (max-width: 700px) {
+	.box {
+		width: 90%;
+	}
+}
